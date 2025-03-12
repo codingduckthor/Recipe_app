@@ -1,20 +1,18 @@
 # Recipe Manager
 
-### A simple Django-based Recipe Manager to add, view, edit, and delete recipes. This project is designed to help manage your favorite recipes efficiently.
+### Простое приложение на основе Django для добавления, просмотра, коррекции и удаления рецептов.
 
-# Features
+# Функции
 
-### Add new recipes with title, ingredients, and instructions
+### Добавление рецептов с названием, ингридиентами, инструкциями к приготовлению
 
-### Categorize recipes by type (e.g., Breakfast, Dinner, Dessert)
+### Возможность выбора категорий "Завтрак", "Обед", "Перекус", "Ужин"
 
-### Edit and delete existing recipes
+### Корректировка и удаление рецептов
 
-### User-friendly interface with intuitive navigation
+# Установка
 
-# Installation
-
-## Prerequisites
+## Пререквезиты
 
 ### Python 3.10+
 
@@ -22,9 +20,9 @@
 
 ### Git
 
-# Setup Instructions
+# Инструкции к установке
 
-### Clone the repository
+### Клонирование репозитория
 
 ```
 git clone https://github.com/codingduckthor/Recipe_app.git
@@ -32,7 +30,7 @@ git clone https://github.com/codingduckthor/Recipe_app.git
 cd Recipe_app
 ```
 
-### Create and activate a virtual environment
+### Создание и запуск вируальной среды
 
 ```
 python -m venv venv
@@ -40,31 +38,31 @@ source venv/Scripts/activate  # On Windows
 source venv/bin/activate      # On Mac/Linux
 ```
 
-### Install dependencies
+### Установка необходимых элементов
 
 ```
 pip install -r requirements.txt
 ```
 
-### Apply migrations
+### Миграции
 
 ```
 python manage.py migrate
 ```
 
-### Create a superuser (optional for admin access)
+### Создание админки, если есть необходимость
 
 ```
 python manage.py createsuperuser
 ```
 
-### Run the development server
+### Запуск сервера
 
 ```
 python manage.py runserver
 ```
 
-### Access the app in your browser:
+### Сервер теперь доступен по адресам:
 
 Home page: http://localhost:8000
 
