@@ -1,0 +1,10 @@
+{% extends 'recipes/base.html' %} {% block content %}
+<h2>{% if form.instance.pk %}Edit Recipe{% else %}Add Recipe{% endif %}</h2>
+
+<form method="POST">
+  {% csrf_token %} {{ form.as_p }}
+  <button type="submit">Save</button>
+</form>
+
+<a href="{% url 'recipe_list' %}" class="btn">Back to Recipes</a>
+{% endblock %}
